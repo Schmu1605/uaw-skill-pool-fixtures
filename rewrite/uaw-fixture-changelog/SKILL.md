@@ -18,3 +18,4 @@ description: Formatiert eine Liste von Änderungen als Changelog-Abschnitt nach 
    ```
 
 4. Leere Gruppen lässt du weg; die Reihenfolge ist Added, Changed, Fixed, Removed.
+5. Jeder Eintrag ist ein kurzer Satz im Präsens, ohne abschließenden Punkt.
