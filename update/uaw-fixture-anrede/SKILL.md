@@ -1,7 +1,7 @@
 ---
 name: uaw-fixture-anrede
 description: Erzeugt eine förmliche deutsche Briefanrede aus Nachname und Anredeform. Verwenden, wenn eine Briefanrede für eine Person gebraucht wird.
-version: 1.1.0
+version: 1.2.0
 ---
 
 # Förmliche Anrede
@@ -10,5 +10,6 @@ version: 1.1.0
 3. `Herr` → `Sehr geehrter Herr <Nachname>,`
 4. `neutral` → `Guten Tag <Vorname> <Nachname>,` (Vorname ist dann Pflicht).
 5. Ein akademischer Titel (`Dr.`, `Prof.`) steht vor dem Nachnamen: `Sehr geehrte Frau Dr. Berger,`.
+6. Titelschreibweisen stehen in `reference/titel.txt`.
 
 Antworte nur mit der Anredezeile.
